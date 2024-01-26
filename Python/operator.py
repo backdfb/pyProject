@@ -1,9 +1,11 @@
+#4칙연산 계산기 프로젝트
+
 playing = True
 
 while playing:
     a = int(input("Choose a number:\n"))
     b = int(input("Choose another one:\n"))
-    operation = input("Choose an operation:\n    Options are: +, -, *, or /.\n    Write 'exit' to finish.\n")
+    operation = input("Choose an operation:\n  Options are: +, -, *, or /.\n  Write 'exit' to finish.\n")
 
     if operation == "+":
         result = a + b
